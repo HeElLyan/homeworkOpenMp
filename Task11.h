@@ -35,7 +35,7 @@ public:void task11() {
         for (int i = 0; i < N; i++)
         {
             a[i] = rand() % 100;
-            printf("%d\n", a[i]);
+//            printf("%d\n", a[i]);
         }
 
         int count = 0;

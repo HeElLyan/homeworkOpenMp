@@ -44,7 +44,7 @@ class Task4 {
         {
             if (omp_get_thread_num() == 0)
             {
-//                #pragma omp parallel for
+                #pragma omp master
                 for (int j = 0; j < N; j++)
                 {
                     if (min > a[j])
